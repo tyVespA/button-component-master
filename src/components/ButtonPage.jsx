@@ -1,9 +1,10 @@
 import React from "react";
 import Button from "./Button";
+import s from "./ButtonPage.module.css";
 
 function ButtonPage() {
   return (
-    <div>
+    <div className={s.main}>
       <div className="row">
         <div className="variantContainer">
           <p>{"<Button />"}</p>

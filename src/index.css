@@ -69,7 +69,7 @@ h6 {
 }
 
 body {
-  /* background-color: rgb(182, 182, 182); */
+  /* background-color: white; */
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -95,10 +95,10 @@ body {
   align-items: flex-start;
 }
 
-.App {
-  padding: 30px 60px;
-}
-
 h1 {
   padding-bottom: 35px;
+}
+
+.main {
+  padding: 50px 100px;
 }
