@@ -49,8 +49,7 @@ button.hover {
 }
 
 .disableShadow {
-  background-color: hsla(231, 99%, 62%, 1);
-  color: white;
+  box-shadow: none;
 }
 
 .disabled {
@@ -64,4 +63,54 @@ button.hover {
 .disabled.hover {
   background-color: transparent;
   box-shadow: none;
+}
+
+.startIcon,
+.endIcon {
+  color: white;
+  background-color: hsla(224, 100%, 58%, 1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.endIcon {
+  flex-direction: row-reverse;
+}
+
+.sm,
+.md,
+.lg {
+  background-color: hsla(224, 100%, 58%, 1);
+  color: white;
+}
+
+.sm {
+  padding: 6px 12px;
+}
+
+.lg {
+  padding: 11px 22px;
+}
+
+.default {
+  background-color: hsla(0, 0%, 88%, 1);
+}
+
+.primary,
+.secondary,
+.danger {
+  color: white;
+}
+
+.primary {
+  background-color: hsla(224, 100%, 58%, 1);
+}
+
+.secondary {
+  background-color: hsla(199, 18%, 33%, 1);
+}
+
+.danger {
+  background-color: hsla(0, 65%, 51%, 1);
 }

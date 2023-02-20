@@ -70,20 +70,31 @@ h6 {
 
 body {
   /* background-color: rgb(182, 182, 182); */
-  padding: 20px;
   font-family: "Noto Sans", sans-serif;
 }
 
 .row {
-  margin-bottom: 45px;
+  margin-bottom: 50px;
   display: flex;
   gap: 100px;
 }
 
 .variantContainer {
-  width: 220px;
+  min-width: 255px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
+}
+
+.variantContainerWide {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.App {
+  padding: 30px 60px;
 }
